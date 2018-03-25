@@ -41,7 +41,7 @@ int main()
 
 
 
-//конструктор
+//CONSTRUCTOR
 template <typename T>
 Stack<T>::Stack(int a)
 {
@@ -51,7 +51,7 @@ Stack<T>::Stack(int a)
 
 };
 
-//деструктор
+//DESTUCTOR
 template <typename T>
 Stack<T>::~Stack()
 {
