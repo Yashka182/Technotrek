@@ -18,6 +18,7 @@ public:
     ~Stack();
     void Push(int a);
     int Pop();
+    void printStack();
 
 };
 
@@ -51,6 +52,12 @@ int Stack::Pop()
     assert((size > 0)&& "stack is empty");
     return(sp[--size]);
 }
+
+void Stack::printStack()
+{
+    for(int i=size-1; i>=0; i--)
+        cout << sp[i]<< endl;
+}    
 
 int main()
 {
